@@ -1,7 +1,7 @@
 # Setup
-title: 益谦YiQian
-description: 我们以渺小来爱这个巨大的世界 / We love this vast world with our smallness.
-url: https://cat.you7n.com
+title: BLOG de YOU7N
+description: 
+url: https://blog.you7n.com
 avatar: /avatar.png
 paginate: 5
 permalink: pretty
@@ -33,10 +33,10 @@ twitter:
   card: summary
 logo: logo.png
 social:
-  name: YiQian
+  name: you7n
   links:
     - https://github.com/mickeyyqa
-    - https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkyMTYwMTIzNQ==&scene=124#wechat_redirect
+    - https://space.bilibili.com/513685692
 google_site_verification: xxxxx
 lang: en
 
@@ -55,5 +55,5 @@ sass:
 # Specify the author for blog posts
 author:
   name: you7n
-  url: https://cat.you7n.com
+  url: https://blog.you7n.com
   email: qiaoyang172@163.com
