@@ -4,6 +4,7 @@ title: 竞赛做网站曲折经历.html
 date: 2024-01-13 19:32 +0800
 tags: [html, supersmest, conrad]
 toc:  true
+author: you7n
 ---
 
 现在是2024年1月13号下午五点，本蒟蒻刚刚搞完ddl在15号的Conrad竞赛的网站。解决了应该是所有问题，还是挺开心的（打滚）。想记一下做这个网站的神奇妙妙经历。
@@ -117,28 +118,28 @@ gltf loader的问题很大，我自己搞不定。我爸说他可以问问他公
 
 btw大家现在也可以去网站上看看，真的很酷炫。点击网址 [http://supersmest.top/](http://supersmest.top/) 就可以进去了！
 一些主要页面:
-![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_17.jpg "img")
-![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_18.jpg "img")
-![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_19.jpg "img")
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_17.png "img")
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_18.png "img")
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_19.png "img")
 ![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_20.webp "img")
 ![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_21.jpg "img")
 ![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_22.jpg "img")
 
 我组的M同学（就是负责搞电压计算的那哥们）写了一首诗
-<em>I met a traveller from a distant shore,
-Who said -- “Two chambers filled with salt and water
-Lie in the ocean. . . . Near them, on the floor,
-A membrane separates the solutions, whose power,
-And voltage difference, and flow of electric charge,
-Tell that its inventor well those forces harnessed
-Which yet sustain, impressed on these ingenious things,
-The hand that made them, and the mind that blessed;
-And on the device, these words appear:
-My name is Concentration Cell, King of Cells;
-Look on my Works, ye Mighty, and revere!
-Nothing beside remains. Around the sway
-Of that colossal Cell, boundless and fair
-The waves and currents dance and play.”</em>
+> <em>I met a traveller from a distant shore,</em></br>
+<em>Who said -- “Two chambers filled with salt and water</em></br>
+<em>Lie in the ocean. . . . Near them, on the floor,</em></br>
+<em>A membrane separates the solutions, whose power,</em></br>
+<em>And voltage difference, and flow of electric charge,</em></br>
+<em>Tell that its inventor well those forces harnessed</em></br>
+<em>Which yet sustain, impressed on these ingenious things,</em></br>
+<em>The hand that made them, and the mind that blessed;</em></br>
+<em>And on the device, these words appear:</em></br>
+<em>My name is Concentration Cell, King of Cells;</em></br>
+<em>Look on my Works, ye Mighty, and revere!</em></br>
+<em>Nothing beside remains. Around the sway</em></br>
+<em>Of that colossal Cell, boundless and fair</em></br>
+<em>The waves and currents dance and play.”</em>
 
 哦对 本蒟蒻在做网站的同时还负责剪视频。视频在网站的YouTube链接里，可能需要魔法一下。考虑到大家是霍格沃茨毕业学员的人数占比比较低，下面这里也可以看视频😋
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4cxsvnnuvVg?si=r8Hxr0eC2hgZBxNW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
