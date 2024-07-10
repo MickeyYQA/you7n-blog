@@ -95,7 +95,7 @@ gltf loader的问题很大，我自己搞不定。我爸说他可以问问他公
 此时时间进行到了1月12号，也就是昨天——
 
 想起来应该再充实一下网站上的科研部分的内容，于是找负责计算的M同学要了计算过程和数据，用一个LaTeX编辑器转成了html，放到了网站上。同时在网站上内嵌了一个YouTube视频，还增加和修改了其他内容。
-![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_15.jpg "img")
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_15.webp "img")
 
 这LaTeX放本地看起来格式还挺好看的。
 ## 1月13日
@@ -107,7 +107,7 @@ gltf loader的问题很大，我自己搞不定。我爸说他可以问问他公
 于是根据我爹的建议，从2.0版本开始一个版本一个版本的放到服务器上往后推，看是哪天哪个版本哪个功能出现了问题。正好我在服务器上保存了之前所有的文件，于是开始推。
 推到一半发现是从2.3版本开始变得特别慢，当前版本是2.5。2.3是12号下午加完LaTeX和YouTube内嵌后的版本。合理推测是LaTeX公式渲染太慢了导致主站打开特别慢。于是把LaTeX公式变成了图片（虽然这样看起来难看一些）
 
-![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_16.jpg "img")
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_16.webp "img")
 
 ### 下午
 时间进行到1月13号下午，也就是现在——
@@ -120,7 +120,7 @@ btw大家现在也可以去网站上看看，真的很酷炫。点击网址 [htt
 ![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_17.jpg "img")
 ![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_18.jpg "img")
 ![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_19.jpg "img")
-![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_20.jpg "img")
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_20.webp "img")
 ![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_21.jpg "img")
 ![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_22.jpg "img")
 
