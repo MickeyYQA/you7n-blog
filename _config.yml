@@ -5,7 +5,7 @@ url: https://blog.you7n.com
 avatar: /avatar.png
 paginate: 5
 permalink: pretty
-cover_image: /bg2.jpg
+cover_image: /background.jpg
 
 # Gems
 plugins:
