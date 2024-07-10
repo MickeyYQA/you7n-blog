@@ -13,7 +13,7 @@ toc:  true
 故事从9月26号开始——
 九月底同学问我要不要参加Conrad，让我负责做网站和做视频。我寻思这不简单吗就说好啊搞呗。
 最开始想偷懒，就拿了之前给一个Minecraft服务器做主页用下的html模版填吧填吧放上线了。大概长这样，看起来酷酷的。
-![placeholder](https://github.com/MickeyYQA/you7n-blog/blob/4e2ff5eaf46e4c4df1f5e8ba1e150741876cd730/img/20240113/wps_doc_0.jpg "img")
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_0.jpg "img")
 当时我组还没有很确定研究主题和内容，所以网站上的内容都是lorem ipsum。
 ![placeholder](https://github.com/MickeyYQA/you7n-blog/blob/4e2ff5eaf46e4c4df1f5e8ba1e150741876cd730/img/20240113/wps_doc_1.jpg "img")
 （这个挺搞笑）
