@@ -20,13 +20,13 @@ author: you7n
 （这个挺搞笑）
 ## 10月10日
 此时时间进行到了10月10日——
-后来在租服务器的地方整了个他们的二级域名 (类似supersmest.[他们服务器的名字].com这样的)，用起来还挺流畅就没怎么管。突然有一天不行了，网站上去会报错。不是'http error'，是弹出窗口提示的（到现在也没搞清楚是为什么）。
+后来在租服务器的地方整了个他们的二级域名 (类似supersmest.[他们服务器的名字].com这样的)，用起来还挺流畅就没怎么管。突然有一天不行了，网站上去会报错。不是`http error`，是弹出窗口提示的（到现在也没搞清楚是为什么）。
 ![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_2.jpg "img")
 又后来一天，二级域名上不去了。去服务器那一查发现他们不再提供二级域名分发服务了。（刚才上去又看了一眼怎么又有了。。。反正当时肯定是没有）我看这个寄了那我就得自己买个域名了啊，遂去阿里云买域名。
 ## 11月26日
 此时时间进行到了11月26号——
 
-因为组名叫supersmest吗，于是果断买了supersmest.com。这个域名上去会显示无法访问此网站阿、检查 supersmest.com 中是否有拼写错误阿、DNS_PROBE_FINISHED_NXDOMAIN阿什么的。这个过会说。然后把之前那个fancy的模版放了上去，非常成功非常顺利，只是还是会弹窗错误。
+因为组名叫supersmest吗，于是果断买了[supersmest.com](http://supersmest.com)。这个域名上去会显示`无法访问此网站`阿、`检查 supersmest.com 中是否有拼写错误`阿、`DNS_PROBE_FINISHED_NXDOMAIN`阿什么的。这个过会说。然后把之前那个fancy的模版放了上去，非常成功非常顺利，只是还是会弹窗错误。
 
 然后就在搞网站备案，因为是在阿里云买的网站。搞了半天搞不定太麻烦了就扔一边了。当时想的是 看起来网站不完成备案也还可以访问 应该没什么大问题吧。
 随后的一个月都在本地写点网站内容什么的。
@@ -42,7 +42,7 @@ author: you7n
 上午组长L同学找我，说希望在网页上加一个可以拖转旋转和放大缩小的3D模型，模型她做，我搞前端。据说是长得像这样的东西
 ![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_5.jpg "img")
 当时就说这东西是不是太fancy了，我不会啊。她说你就做吧。
-我就到处找可以在网页前端放模型的东西，找到了x3dom这个库。研究了半天搞出来个方块
+我就到处找可以在网页前端放模型的东西，找到了[x3dom](https://www.x3dom.org)这个库。研究了半天搞出来个方块
 ![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_6.jpg "img")
 后来才发现这玩意不能导入模型!!总不能我在html里复刻一个那个模型吧。于是去找其他解决办法。
 然后3号还把网站填了填：
@@ -52,13 +52,13 @@ author: you7n
 ## 1月5日
 时间进行到了1月5号——
 
-在我的一番研究下找到了three.js这个神奇的东西，可以在网页前端加载gltf模型。浏览器搜了几个就开始自己做。
+在我的一番研究下找到了[three.js](https://threejs.org)这个神奇的东西，可以在网页前端加载gltf模型。浏览器搜了几个就开始自己做。
 
 下面遇到的问题记不清时间了，总之是1月5号到1月7号之间遇到的所有问题。
 先搓了一个js，发现根本用不了。找AI也解决不了问题。于是去网上找各种gltf loader网站，试图扒他们源代码下来，也以失败告终。还是老老实实去网上找解决办法和现成的代码，发现这玩意根本没有现成的代码。能用的全都一个样，文件处理都在本地，没有一个link能内嵌到我的网站里的。
 
 继续和AI一起手搓js改问题。发现之前的代码里用到的「GLTFLoader」和「three.js」不是一个版本的，找到了解决办法把这个问题解决了。
-之前根本用不了的代码都是一片白，用chrome右键可以检查 看得到报错信息，这个打开html后是黑的。虽然也还是不行，但是本蒟蒻欣喜若狂，认为这是成功一半的征兆。
+之前根本用不了的代码都是一片白，用Chrome右键可以检查 看得到报错信息，这个打开html后是黑的。虽然也还是不行，但是本蒟蒻欣喜若狂，认为这是成功一半的征兆。
 在网上搜到说这个东西不能在本地运行，于是用python和flask库开了个局域网服务器。后来发现这个东西只能引用index.html一个文件，剩下的模型文件他访问不到，报404。
 ![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_9.jpg "img")
 然后就试图把这个放在租的服务器上调试。调试的第一天晚上是正常的全黑页面，第二天出现了一点小状况。
@@ -76,7 +76,7 @@ author: you7n
 这个也太有病了。。。强烈提倡通信管理局提高工作效率。
 总之就是没有在当天晚上六点前把备案搞完，阿里云把我supersmest.com的域名解析停了。这就是为什么你现在访问它访问不上去。
 我也没有继续完成备案的意愿，因为备案完成至少需要7到13天，最早就是在ddl当天备案完，根本没时间调试新东西。
-于是我的解决办法是，卡他域名注册的40天无敌时间。9号立刻买了新的域名（supersmest.top 这个便宜），这样至少能在29号出结果前没有任何问题。
+于是我的解决办法是，卡他域名注册的40天无敌时间。9号立刻买了新的域名（[supersmest.top](http://supersmest.top) 这个便宜），这样至少能在29号出结果前没有任何问题。
 ## 1月9日
 此时时间进行到了1月9号——
 
@@ -122,27 +122,26 @@ btw大家现在也可以去网站上看看，真的很酷炫。点击网址 [htt
 ![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_18.png "img")
 ![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_19.png "img")
 ![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_20.webp "img")
-![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_21.jpg "img")
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_21.png "img")
 ![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_22.jpg "img")
 
 我组的M同学（就是负责搞电压计算的那哥们）写了一首诗
-> <em>I met a traveller from a distant shore,</em></br>
-<em>Who said -- “Two chambers filled with salt and water</em></br>
-<em>Lie in the ocean. . . . Near them, on the floor,</em></br>
-<em>A membrane separates the solutions, whose power,</em></br>
-<em>And voltage difference, and flow of electric charge,</em></br>
-<em>Tell that its inventor well those forces harnessed</em></br>
-<em>Which yet sustain, impressed on these ingenious things,</em></br>
-<em>The hand that made them, and the mind that blessed;</em></br>
-<em>And on the device, these words appear:</em></br>
-<em>My name is Concentration Cell, King of Cells;</em></br>
-<em>Look on my Works, ye Mighty, and revere!</em></br>
-<em>Nothing beside remains. Around the sway</em></br>
-<em>Of that colossal Cell, boundless and fair</em></br>
-<em>The waves and currents dance and play.”</em>
+> <em>I met a traveller from a distant shore,/</em>
+<em>Who said -- “Two chambers filled with salt and water/</em>
+<em>Lie in the ocean. . . . Near them, on the floor,/</em>
+<em>A membrane separates the solutions, whose power,/</em>
+<em>And voltage difference, and flow of electric charge,/</em>
+<em>Tell that its inventor well those forces harnessed/</em>
+<em>Which yet sustain, impressed on these ingenious things,/</em>
+<em>The hand that made them, and the mind that blessed;/</em>
+<em>And on the device, these words appear:/</em>
+<em>My name is Concentration Cell, King of Cells;/</em>
+<em>Look on my Works, ye Mighty, and revere!/</em>
+<em>Nothing beside remains. Around the sway/</em>
+<em>Of that colossal Cell, boundless and fair/</em>
+<em>The waves and currents dance and play.”/</em>
 
-哦对 本蒟蒻在做网站的同时还负责剪视频。视频在网站的YouTube链接里，可能需要魔法一下。考虑到大家是霍格沃茨毕业学员的人数占比比较低，下面这里也可以看视频😋
+哦对 本蒟蒻在做网站的同时还负责剪视频。视频在网站的YouTube链接里，可能需要魔法一下。<del>考虑到大家是霍格沃茨毕业学员的人数占比比较低，下面这里也可以看视频😋</del>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4cxsvnnuvVg?si=r8Hxr0eC2hgZBxNW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 这个「Supersmest启动」的图标也是本蒟蒻做的😎
-
 ![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240113/wps_doc_23.jpg "img")
