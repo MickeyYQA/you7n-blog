@@ -1,6 +1,9 @@
 - title: Email
   url: mailto://qiaoyang172@163.com
   icon: fas fa-envelope
-- title: WeChat
-  url: https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkyMTYwMTIzNQ==&scene=124#wechat_redirect
-  icon: fab fa-weixin
+- title: Github
+  url: https://github.com/mickeyyqa
+  icon: fab fa-github
+- title: Bilibili
+  url: https://space.bilibili.com/513685692
+  icon: fa-brands fa-bilibili
