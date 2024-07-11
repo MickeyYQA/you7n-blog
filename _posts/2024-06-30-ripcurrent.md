@@ -5,7 +5,12 @@ date: 2024-06-30
 tags: [PBL, Rip Currents, Visual Perception, Artificial Intelligence]
 toc:  true
 author: Mickey Yang · Ethan Meng · Connor Wu · Leo Qiu · Jocelyn Cai
+math: true
 ---
+
+An effective method for detecting rip currents, which pose significant hazards to beachgoers, using artificial intelligence. A binary classification model on aerial images of the ocean is trained, utilizing Multi-Layer Perceptron classifiers and achieving a testing accuracy of 73.9%, and an accuracy of 92.5% after applying a confidence threshold.
+{: .message }
+
 ## Abstract 
 
 - _Context._ Rip currents pose significant hazards to beachgoers, often catching untrained individuals unaware and leading to dangerous situations. 
@@ -129,11 +134,7 @@ Figure 6. Line chart - TPR times TNR values at different confidence threshold
 
 From the analysis presented in the table above, the TPR and TNR values were computed for different confidence levels. The product TPR × TNR was used as the metric to evaluate the performance at each threshold. As shown in the table, the threshold of 69 trials yielded the highest TPR × TNR value of 84.78 %, with a corresponding TPR of 93.06 % and TNR of 91.10 %. This indicates that at this threshold, the model achieves a near-optimal balance between correctly identifying images with and without rip currents.
 
-Given that TPR is 93.06% while TNR is 91.10% under the 0.69 confidence threshold, the overall performance accuracy could be calculated. By referring to the formula  
-
-we will get the TPR = 0.9306, TNR = 0.9110, P (Positive dataset size) = 1781, N (Negative dataset size) = 703, we finally got the overall
-
-under the confidence threshold of 0.69.
+Given that TPR is 93.06% while TNR is 91.10% under the 0.69 confidence threshold, the overall performance accuracy could be calculated. By referring to the formula  \\\(Accuracy = (TPR \times \frac{P}{N + P}) + (TNR \times \frac{N}{N + P})\\\), we will get the TPR = 0.9306, TNR = 0.9110, P (Positive dataset size) = 1781, N (Negative dataset size) = 703, we finally got the overall \\\(Accuracy = 0.9306 \times 0.7169 + 0.9110 \times 0.2830 = 0.9249\\\) under the confidence threshold of 0.69.
 
 Furthermore, after comparing the result of different α values, we decided to set it to 100, which gives us a high classification accuracy and low classification interval of around 1.3 seconds. This means that the drone could classify 100 images in 1.3 seconds to get one result with accuracy of 92.49 %. This time interval was get by testing in real situations.
 
