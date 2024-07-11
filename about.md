@@ -11,5 +11,7 @@ title: About
 - OInformatics `&&` OLinguistics
 - 音ゲー + ボカロ(最高!) + ゼルダBOTW&&TOTK😋
 
-All works on this site are licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). If you use or modify this work, please credit `you7n` and inform me by sending an email to [qiaoyang172@163.com](mailto:qiaoyang172@163.com).
+All works on this site are licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). If you use or modify these works, please credit `you7n` and inform me by sending an email to [qiaoyang172@163.com](mailto:qiaoyang172@163.com).
 
+This site is a Jekyll themed blog build on GitHub Pages.
+Theme used: [Not-pure-poole](https://github.com/vszhub/not-pure-poole).
