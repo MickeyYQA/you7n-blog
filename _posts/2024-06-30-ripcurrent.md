@@ -2,7 +2,7 @@
 layout: post
 title: Binary Classification of Rip Current Images Using Artificial Intelligence
 date: 2024-06-30
-tags: [PBL, Rip Currents, Visual Perception, Artificial Intelligence]
+tags: [PBL, Rip Currents, Visual Perception, Artificial Intelligence, dev]
 toc:  true
 author: Mickey Yang · Ethan Meng · Connor Wu · Leo Qiu · Jocelyn Cai
 math: true
