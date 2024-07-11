@@ -193,16 +193,16 @@ The data used to train the AI-based model is freely available at [https://sites.
 
 ## Reference 
 [^fn-1]: US Department of Commerce, N. (n.d.). Surf Zone Fatalities in the United States in 2023: 98. Www.weather.gov. https://www.weather.gov/safety/ripcurrent-fatalities 
-[^fn-2]“Florida PanHandle.” FloridaPanhandle.com, 30 June 2023, floridapanhandle.com/blog/rip-current-statistics/#:~:text=Florida%20is%20accountable%20for%20143%20of%20the%20total,the%20Great%20Lakes%20are%20caused%20by%20rip%20currents. 
-[^fn-3]Gong, Chao, Introduction to Visual Perception. 2022. (in Chinese)
-[^fn-4]“Adam: A Method for Stochastic Optimization.” arXiv (Cornell University), Dec. 2014, https://doi.org/10.48550/arxiv.1412.6980.
-[^fn-5]“RoboMaster TT - Specifications - DJI.” DJI Official, www.dji.com/cn/robomaster-tt/specs.
-[^fn-6]Rampal, N., Shand, T., Wooler, A., & Rautenbach, C. (2021). Interpretable Deep Learning Applied to Rip Current Detection and Localization. Remote Sensing, 14(23), 6048. https://doi.org/10.3390/rs14236048
-[^fn-7]De Silva, A., Mori, I., Dusek, G., Davis, J., & Pang, A. (2021). Automated rip current detection with region based Convolutional Neural Networks. Coastal Engineering, 166, 103859. https://doi.org/10.1016/j.coastaleng.2021.103859 
-[^fn-8]“MLPClassifier.” Scikit-learn, scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html# 
-[^fn-9]Zhang, Y., Huang, W., Liu, X., Zhang, C., Xu, G., & Wang, B. (2021). Rip current hazard at coastal recreational beaches in China. Ocean & Coastal Management, 210, 105734. https://doi.org/10.1016/j.ocecoaman.2021.105734 
-[^fn-10]Salama, N.M., Iskander, M.M., El-Gindy, A.A. et al. Hydrodynamic Simulation of Rip Currents Along Al-Nakheel Beach, Alexandria, Egypt: Case Study. J. Marine. Sci. Appl. 22, 137–145 (2023). https://doi.org/10.1007/s11804-023-00320-2 
-[^fn-11]Mucerino, L., Carpi, L., Schiaffino, C. F., Pranzini, E., Sessa, E., & Ferrari, M. (2020). Rip current hazard assessment on a sandy beach in Liguria, NW Mediterranean. Natural Hazards, 105(1), 137–156. https://doi.org/10.1007/s11069-020-04299-9 
+[^fn-2]: “Florida PanHandle.” FloridaPanhandle.com, 30 June 2023, floridapanhandle.com/blog/rip-current-statistics/#:~:text=Florida%20is%20accountable%20for%20143%20of%20the%20total,the%20Great%20Lakes%20are%20caused%20by%20rip%20currents. 
+[^fn-3]: Gong, Chao, Introduction to Visual Perception. 2022. (in Chinese)
+[^fn-4]: “Adam: A Method for Stochastic Optimization.” arXiv (Cornell University), Dec. 2014, https://doi.org/10.48550/arxiv.1412.6980.
+[^fn-5]: “RoboMaster TT - Specifications - DJI.” DJI Official, www.dji.com/cn/robomaster-tt/specs.
+[^fn-6]: Rampal, N., Shand, T., Wooler, A., & Rautenbach, C. (2021). Interpretable Deep Learning Applied to Rip Current Detection and Localization. Remote Sensing, 14(23), 6048. https://doi.org/10.3390/rs14236048
+[^fn-7]: De Silva, A., Mori, I., Dusek, G., Davis, J., & Pang, A. (2021). Automated rip current detection with region based Convolutional Neural Networks. Coastal Engineering, 166, 103859. https://doi.org/10.1016/j.coastaleng.2021.103859 
+[^fn-8]: “MLPClassifier.” Scikit-learn, scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html# 
+[^fn-9]: Zhang, Y., Huang, W., Liu, X., Zhang, C., Xu, G., & Wang, B. (2021). Rip current hazard at coastal recreational beaches in China. Ocean & Coastal Management, 210, 105734. https://doi.org/10.1016/j.ocecoaman.2021.105734 
+[^fn-10]: Salama, N.M., Iskander, M.M., El-Gindy, A.A. et al. Hydrodynamic Simulation of Rip Currents Along Al-Nakheel Beach, Alexandria, Egypt: Case Study. J. Marine. Sci. Appl. 22, 137–145 (2023). https://doi.org/10.1007/s11804-023-00320-2 
+[^fn-11]: Mucerino, L., Carpi, L., Schiaffino, C. F., Pranzini, E., Sessa, E., & Ferrari, M. (2020). Rip current hazard assessment on a sandy beach in Liguria, NW Mediterranean. Natural Hazards, 105(1), 137–156. https://doi.org/10.1007/s11069-020-04299-9 
 [^fn-12]: Haller, M. C., Honegger, D., & Catalan, P. A. (2014). Rip current observations via marine radar. Journal of Waterway, Port, Coastal, and Ocean Engineering, 140(2), 115-124. 
 [^fn-13]: Liu, B., Yang, B., Masoud-Ansari, S., Wang, H., & Gahegan, M. (2021). Coastal image classification and pattern recognition: Tairua Beach, New Zealand. Sensors, 21(21), 7352. 
 [^fn-14]: Nelko V. The prediction of rip currents. ProQuest Dissertations Publishing; 2012. 
