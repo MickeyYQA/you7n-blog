@@ -12,12 +12,12 @@ _Aims._ The research aims to develop an effective method for detecting rip curre
 _Methods._ The method involves training a binary classification model on aerial images of the ocean, categorizing them into those with rip currents and without rip currents. Data augmentations such as cutting, rotating, and flipping the image are employed so that the generalization ability of our model could be enhanced. 
 _Results._ We utilized Multi-Layer Perceptron classifiers, achieving a testing accuracy of 73.9%, and an accuracy of 92.5% after applying a confidence threshold. The integration of the model with a Tello Talent Robomaster TT drone introduced significant flexibility and efficiency, with an average processing time of 3.09 milliseconds per 1000 images. The model also demonstrated relatively high performance, with a True Positive Rate (TNR) of 93.06% and True Negative Rate (TNR) of 91.10%. 
 _Conclusions._ This innovative approach of integrating AI with rip current proves to be flexible, efficient, and effective making a significant contribution to beach safety.
-Key words: Rip current; Artificial intelligence; Binary classification; Beach safety; Artificial neural network; Marine environmental monitoring 
-Introduction 
+**Key words:** Rip current; Artificial intelligence; Binary classification; Beach safety; Artificial neural network; Marine environmental monitoring 
+## Introduction 
 Rip currents are powerful, narrow channels of fast-moving water running from a beach back to the open ocean, sea, or lake, usually sustains for several minutes. Rip current can move up to 8 feet per second (more than 2 meters per second), which is much faster than even Olympic swimmers. They are usually caused by the fragmented tides created by radiation stress in water waves.
 
 Figure 1. Anatomy of the rip current
-Note. This image was acquired from the website of National Oceanic and Atmospheric Administration (NOAA) [1].
+_Note._ This image was acquired from the website of National Oceanic and Atmospheric Administration (NOAA)[^fn-r1].
 Rip currents present a significant danger due to the general public’s lack of awareness or inability to recognize these potentially lethal oceanic phenomena, often resulting in hazardous situations for unsuspecting swimmers. Typically, surfers often show themselves as calm areas in a sea of waves and this may deceive people into thinking that these are safe places. In essence, however, these tranquil zones are the most dangerous where strong currents create significant hazard. The untrained eye will not straightforwardly or hastily notice the subtle visual indicators of the presence of a rip current like watery tones, wave patterns or even foam moving outwards together with seaweed or debris.
 
 Figure 2. Examples of rip current patterns
@@ -138,7 +138,7 @@ The data used to train the AI-based model is freely available at https://sites.g
 
 
 Reference 
-[1]US Department of Commerce, N. (n.d.). Surf Zone Fatalities in the United States in 2023: 98. Www.weather.gov. https://www.weather.gov/safety/ripcurrent-fatalities 
+[^fn-r1]US Department of Commerce, N. (n.d.). Surf Zone Fatalities in the United States in 2023: 98. Www.weather.gov. https://www.weather.gov/safety/ripcurrent-fatalities 
 [2]“Florida PanHandle.” FloridaPanhandle.com, 30 June 2023, floridapanhandle.com/blog/rip-current-statistics/#:~:text=Florida%20is%20accountable%20for%20143%20of%20the%20total,the%20Great%20Lakes%20are%20caused%20by%20rip%20currents. 
 [3]Gong, Chao, Introduction to Visual Perception. 2022. (in Chinese)
 [4]“Adam: A Method for Stochastic Optimization.” arXiv (Cornell University), Dec. 2014, https://doi.org/10.48550/arxiv.1412.6980.
