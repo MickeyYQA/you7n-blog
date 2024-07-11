@@ -25,11 +25,15 @@ An effective method for detecting rip currents, which pose significant hazards t
 
 Rip currents are powerful, narrow channels of fast-moving water running from a beach back to the open ocean, sea, or lake, usually sustains for several minutes. Rip current can move up to 8 feet per second (more than 2 meters per second), which is much faster than even Olympic swimmers. They are usually caused by the fragmented tides created by radiation stress in water waves.
 
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240630/wps_doc_1.jpg "img")
+
 Figure 1. Anatomy of the rip current
 
 _Note._ This image was acquired from the website of National Oceanic and Atmospheric Administration (NOAA)[^fn-1].
 
 Rip currents present a significant danger due to the general public’s lack of awareness or inability to recognize these potentially lethal oceanic phenomena, often resulting in hazardous situations for unsuspecting swimmers. Typically, surfers often show themselves as calm areas in a sea of waves and this may deceive people into thinking that these are safe places. In essence, however, these tranquil zones are the most dangerous where strong currents create significant hazard. The untrained eye will not straightforwardly or hastily notice the subtle visual indicators of the presence of a rip current like watery tones, wave patterns or even foam moving outwards together with seaweed or debris.
+
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240630/wps_doc_2.png "img")
 
 Figure 2. Examples of rip current patterns
 
@@ -78,10 +82,16 @@ Our augmentation strategy involves several techniques. First, we apply random ro
 
 Four augmentations on training set with no rip currents and four augmentations on image dataset with rip currents were done. A total number of 1986 (training set) × 4 = 7948 images. 7948 (training set after augmentation) + 497 (testing set) = 8445 images were actually used in the model training.
 
+
 Table 1. Training, testing, and rip current existence dataset detail
+
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240630/wps_doc_3.png "img")
+
 
 #### Dataset Preparation: 
 Since the dataset has images with resolution varying from 234 ×234 to 1094 × 1322, after augmenting the images, it is essential to standardize them in order to maintain uniformity concerning input format for the model. The resizing process was done using OpenCV library and images were adjusted to a fixed resolution of 20 pixels by 20 pixels. This has the additional advantage of reducing computational effort during training the model. Along with this, these images are turned into grayscale through OpenCV. Converting images into grayscale simplifies information content and reduces data into one channel. This sort of operation focuses on structural characteristics instead of color changes and makes learning more efficient and better model training possible. 
+
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240630/wps_doc_0.png "img")
 
 Figure 3. Original image (left) and three different images after augmentations and dataset preparation (right)
 
@@ -97,6 +107,7 @@ The model is trained using the ‘Adam’ optimizer, an efficient variant of sto
 
 To ensure reproducibility, a random seed is set using random_state = 1. The model training is executed over a maximum of 150 iterations, allowing the weights to be updated through backpropagation until convergence or the iteration limit is reached.
 
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240630/wps_doc_4.png "img")
 
 Figure 4. Schematic diagram of the architecture of the neural network, not to scale
 
@@ -111,6 +122,9 @@ Accuracy is the proportion of correctly classified instances out of the total in
 
 True Negative Rate (TNR) measures the proportion of actual negatives that are correctly identified by the model. For our testing set, the model achieved a TNR of 0.62. This means that 62% of the images without rip currents were correctly classified. True Positive Rate (TPR) measures the proportion of actual positives that are correctly identified by the model. On the testing set, the TPR was 0.75, indicating that 75% of the images with rip currents were correctly classified.
 
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240630/wps_doc_5.png "img")
+
+
 Figure 5. Examples of FP, TN, TP and FN classifications
 
 The model’s training time was also a key consideration. The total time taken to train the model was 6.48 seconds, highlighting the efficiency of the training process. This quick training time is particularly advantageous when dealing with large datasets or when frequent model updates are required. This part will also be further discussed in later parts. Also, it takes only 25.97 milliseconds to run both of the training and the testing set, which is 3.09 milliseconds only for 1000 images on average. This fast runtime ensures that the model can be used in real-time applications where rapid image classification is essential.
@@ -122,12 +136,15 @@ To determine the optimal threshold, we calculated the TPR and TNR for various co
 
 To set a confidence threshold, we have to calculate the chances of n true positives or n true negatives occurring out of α trials, then we add up all of the chances above n. With that, we get the TPR and TNR. To maximize both, we want compare the value of TPR × TNR. We found out that by having n set at approximately 0.69 × α, we get the highest value of TPR and TNR rates. 
 
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240630/wps_doc_6.png "img")
+
 Table 2. TPR, TNR and TPR time TNR values at different thresholds
 
 
-_Note:_ Due to space limitation, only a part of the table was shown. Full table could be freely access at https://github.com/MickeyYQA/rip_current-appendix (accessed on June 30, 2024).
+_Note:_ Due to space limitation, only a part of the table was shown. Full table could be freely access at [https://github.com/MickeyYQA/rip_current-appendix](https://github.com/MickeyYQA/rip_current-appendix) (accessed on June 30, 2024).
 
 
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240630/chart.png "img")
 
 Figure 6. Line chart - TPR times TNR values at different confidence threshold
 
@@ -139,6 +156,7 @@ Given that TPR is 93.06% while TNR is 91.10% under the 0.69 confidence threshold
 Furthermore, after comparing the result of different α values, we decided to set it to 100, which gives us a high classification accuracy and low classification interval of around 1.3 seconds. This means that the drone could classify 100 images in 1.3 seconds to get one result with accuracy of 92.49 %. This time interval was get by testing in real situations.
 
 
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240630/wps_doc_7.png "img")
 
 Figure 7. Sketch of the process of drone integration.
 
@@ -154,6 +172,7 @@ In an effort to make more accurate predictions of rip currents, a customized met
 #### Result Display: 
 To display immediate and clear feedback in relation to the classification outcomes, we created a graphical user interface using OpenCV. If it detects a rip current (which means it has made 100 predictions where the confidence levels are higher than 82%), then this interface will pop-up a window displaying "RIP CURRENT" with a red background if a rip current is being classified, and "SAFE" with green background color in case no rip current is being classified. 
 
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/20240630/wps_doc_8.png "img")
 
 Figure 8. Rip currents classification user interface demonstration
 
