@@ -194,19 +194,19 @@ Tense and lax vowels元音松紧指的是the degree of tension in the tongue mus
 
 ### Turkish Delight - 我自己翻译的版本！
 下面是一些土耳其语和对应的中文翻译:
-A güreşçi 摔跤运动员
-B ikbalsiz 不成功的
-C gözcü 眼科医生
-D isimsiz 无名的
-E ormancı 林务员
-F sonsuz 无尽的
-G içkici 酒鬼
-H takatsiz 无力的
-I barutçu 制火药的人
-J sütsüz 没有牛奶的
-K balıkçı 渔夫
-L parasız 不用现金的
-M mumcu 制蜡烛的人
+- A güreşçi 摔跤运动员
+- B ikbalsiz 不成功的
+- C gözcü 眼科医生
+- D isimsiz 无名的
+- E ormancı 林务员
+- F sonsuz 无尽的
+- G içkici 酒鬼
+- H takatsiz 无力的
+- I barutçu 制火药的人
+- J sütsüz 没有牛奶的
+- K balıkçı 渔夫
+- L parasız 不用现金的
+- M mumcu 制蜡烛的人
 
 **F1.** 上面的单词中其中两个和其他在形式上略有不同，因为它们的词干是借自其他语言的。找出这两个词。
 
@@ -215,20 +215,22 @@ M mumcu 制蜡烛的人
 盲的:**
 
 **F3.** 下面给出一些土耳其语单词（不是借自其他语言的）。
-dil 语言
-kalıp 形式
+
+- dil 语言
+- kalıp 形式
+
 翻译成土耳其语。
-**语言学家:
-哑的:
-制模具的人:
-无形的:**
+- 语言学家:
+- 哑的:
+- 制模具的人:
+- 无形的:
 
 *Note:* ç sounds like ch in church, c like j in job, ş like sh in shoe. e, i, o, and u are pronounced approximately like in red, reed, rod, and rude, respectively. ö and ü are respectively e and i, pronounced with the lips rounded. ı (written like an “i” but without a dot on top) is like u, pronounced with the lips spread (unrounded).
 Turkish is a language from the Turkic group of the Altaic language family. It is spoken by 60 million people in Turkey and roughly 10 million other people around the world.
 
-答案翻到最下面就有了。
 
-## Reference
+## Reference 参考
+
 
 [^fn-1]: Ladefoged, Peter N. “Phonetics - Definition, Types, Examples, and Facts.” Encyclopedia Britannica, 5 Dec. 2023, www.britannica.com/science/phonetics.
 
@@ -244,5 +246,7 @@ Turkish is a language from the Turkic group of the Altaic language family. It is
 
 [^fn-7]: Stewart, Thomas W., and Nathan Vaillette. Language Files : Materials for an Introduction to Language and Linguistics. 2001, ci.nii.ac.jp/ncid/BA52967097.
 
-**F1** BH; **F2** sütçü gözsüz; **F3** dilçi dilsiz kalıpçı kalıpsız
-{: .message}
+## Answer Key 答案
+- **F1** BH
+- **F2** sütçü gözsüz 
+- **F3** dilçi dilsiz kalıpçı kalıpsız
