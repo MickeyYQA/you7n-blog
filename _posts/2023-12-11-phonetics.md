@@ -3,19 +3,17 @@ layout: post
 title: Introduction to Phonetics
 date: 2023-12-11 20:07
 last_modified_at:  2023-12-15日 22:50
-tags: [linguistics, phonetics]
+tags: [linguistics, phonetics, iol]
 toc:  true
 author: you7n
 ---
 
-这是第一篇讲竞赛内容的文章，那就从本人最喜欢的语音学开始讲起吧。
-
-This article contains phonetic symbols. Without proper rendering support, you may see question marks, boxes, or other symbols instead of phonetic symbols.
+This article contains phonetic symbols. Without proper rendering support, you may see [question marks, boxes, or other symbols](https://en.wikipedia.org/wiki/Specials_(Unicode_block)#Replacement_character) instead of phonetic symbols.
 {: .message}
  
 ## 0x00 Study of Sounds
 
-图片
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/2023-12-11/1.webp "img")
 
 语音学旨在描述世界上所有语言的所有语音。它包含acoustic phonetics声学语音学，auditory phonetics听觉语音学，articulatory phonetics发音语音学 和 linguistic phonetics 语言语音学。
 
@@ -43,19 +41,20 @@ This article contains phonetic symbols. Without proper rendering support, you ma
 
 相信你也注意到了，我在上面讲ghoti的这段话里用了很多这样的东西。
 
-图片
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/2023-12-11/2.png "img")
 
 只要你学过英语，就肯定知道 oo这不国际音标嘛。这是十分正确的。但是英语教材上所谓的「国际音标」是简化过的，长这样[3]：
 
-图片
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/2023-12-11/3.png "img")
+
 
 但实际上真正完整的IPA (I)nternational (P)honetic (A)lphabet国际音标长这样，是1888年发明的one-to-one correspondence between each sound in world languages and one symbol 世界上的所有音和IPA音标一一对应的体系。[4]
 
-图片
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/2023-12-11/3.webp "img")
 
 是不是很帅。
 
-有了这张IPA Chart并知道了每个音标的发音(有些还是挺难发的 像是[ʀ][r] [ɖ]什么的)就相当于知道了所有存在的语言中的音的发音方式了！
+有了这张IPA Chart并知道了每个音标的发音(有些还是挺难发的 像是[ʀ][r][ɖ]什么的)就相当于知道了所有存在的语言中的音的发音方式了！
 
 ## 0x02 Describing Sounds
 
@@ -65,7 +64,7 @@ This article contains phonetic symbols. Without proper rendering support, you ma
 
 元音下面的子分类较为简单。元音可以以不同的分类方式分为{前，中，后} , {闭，半闭，半开，开} , {圆唇，非圆唇} , {松，紧}。一般松紧不怎么做区分，所以所有的元音都以前三个维度体现在IPA Chart的这部分：
 
-图片
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/2023-12-11/4.png "img")
 
 那么剩下就需要给辅音分类了。
 
@@ -73,32 +72,36 @@ This article contains phonetic symbols. Without proper rendering support, you ma
 
 非肺气流辅音就是那些不需要来自肺部气流就可以发的辅音，比如Xhosa科萨语中的x([‖])和xh([‖ʰ])这些clicks喌音(搭嘴音)。一个典型的例子就是表示不屑的啧啧([ǀ])。非肺气流辅音体现在IPA Chart的这部分：
 
-图片
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/2023-12-11/5.png "img")
 
-## 0x03 Categories Based on Places of Articuation [4]
+
+## 0x03 Categories Based on Places of Articuation
 
 那么、剩下我们只需要给较为复杂的肺气流辅音分类了。
 
-可以发现，IPA表中所有的肺气流辅音被分在三个维度上：发音位置，发音方式和清浊。
+可以发现，IPA表中所有的肺气流辅音被分在三个维度上：发音位置，发音方式和清浊。[4]
 
 先来说以发音位置分类肺气流辅音[5]。这种发音方式体现在IPA Chart的横轴上。
 
-图片
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/2023-12-11/6.webp "img")
+
 
 从前到后的发音方式及其对应的例子如下。在看的时候可以试着发一下这些音感受一下它们的发音位置：
 
-1) bilabial 双唇音 [m] [b] [p]
-2) labiodental 唇齿音 [f] [v]
-3) dental/interdental 齿间音 ≈ 4) alveolar 齿槽音 [t] [d] [s] [t͡s]
-5) postalveolar 后齿槽音
-    a) retroflex 卷舌音 （舌头后卷的音，出现分布在印度的一些语言里。很难发音至少对我来说是的）[ʈ] [ɖ]
-    b)palato-alveolar 硬颚-齿槽音 ≈ 
-6) palatal 硬颚音 [j] [ç]
-7) velar 软腭音 [k] [g] [ŋ] [w]
-8) uvular 小舌音 [ʀ] [χ]
-9) pharyngeal 喉音 [ʕ]
-10) glottal 声门 [ʔ]
-##0x04 Categories Based on Matters of Articuation [4]
+1. bilabial 双唇音 [m] [b] [p]
+2. labiodental 唇齿音 [f] [v]
+3. dental/interdental 齿间音 ≈ 4) alveolar 齿槽音 [t] [d] [s] [t͡s]
+5. postalveolar 后齿槽音
+    - retroflex 卷舌音 （舌头后卷的音，出现分布在印度的一些语言里。很难发音至少对我来说是的）[ʈ] [ɖ]
+    - palato-alveolar 硬颚-齿槽音 ≈ 
+6. palatal 硬颚音 [j] [ç]
+7. velar 软腭音 [k] [g] [ŋ] [w]
+8. uvular 小舌音 [ʀ] [χ]
+9. pharyngeal 喉音 [ʕ]
+10. glottal 声门 [ʔ]
+
+## 0x04 Categories Based on Matters of Articuation [4]
+
 
 第二种给肺气流辅音分类的方式就是通过发音的方式，体现在IPA Chart的纵轴上。
 
@@ -120,7 +123,7 @@ This article contains phonetic symbols. Without proper rendering support, you ma
 
     b) uvular 小舌颤音 [ʀ] 如法语中rien
 
-7) taps 闪音 [ɾ] 就是颤音但是只颤一下，用舌头拍一下上颚。*trills and taps are both used in español and italiano*如西班牙语中pero，北美英语中latter，日语中ラーメン。
+7) taps 闪音 [ɾ] 就是颤音但是只颤一下，用舌头拍一下上颚。* trills and taps are both used in español and italiano *如西班牙语中pero，北美英语中latter，日语中ラーメン。
 
 8) laterals 边音 [l] 如英语中milk里的L。
 
@@ -128,9 +131,9 @@ This article contains phonetic symbols. Without proper rendering support, you ma
 
 以上。
 
-----------Reference----------
+## Reference
 
-[1]Ladefoged, Peter N. “Phonetics | Definition, Types, Examples, and Facts.” Encyclopedia Britannica, 5 Dec. 2023, www.britannica.com/science/phonetics.
+[1]Ladefoged, Peter N. “Phonetics - Definition, Types, Examples, and Facts.” Encyclopedia Britannica, 5 Dec. 2023, www.britannica.com/science/phonetics.
 
 [2]Finch, Geoffrey, et al. How to Study Linguistics: A Guide to Understanding Language. Bloomsbury Publishing, 2017.
 
