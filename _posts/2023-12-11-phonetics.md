@@ -14,7 +14,7 @@ This article contains phonetic symbols. Without proper rendering support, you ma
 {: .message}
 
 ## Section I
-## 0x00 Study of Sounds
+## 0x00 Study of Sounds 语音之学
 
 ![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/2023-12-11/1.webp "img")
 
@@ -30,7 +30,7 @@ This article contains phonetic symbols. Without proper rendering support, you ma
 
 我们首先需要了解这个工具能做什么。人类的声音也是如此，它是一种乐器：在处理一些描述其语言特性的技术方法之前，从更广泛的意义上理解它的意义是很重要的。[^fn-2]
 
-## 0x01 Transcription of Sound
+## 0x01 Transcription of Sound 语音的转写
 
 讲语音学肯定是不可避免的要讲到这个东西。
 
@@ -62,7 +62,7 @@ This article contains phonetic symbols. Without proper rendering support, you ma
 
 有了这张IPA Chart并知道了每个音标的发音(有些还是挺难发的 像是[ʀ][r][ɖ]什么的)就相当于知道了所有存在的语言中的音的发音方式了！
 
-## 0x02 Describing Sounds
+## 0x02 Describing Sounds 描述语音
 
 如何描述一个音？直接把这个音发出来肯定是最简单的方式，但是很明显有些时候这种方法并不适用，比如打印在书上之类的。这时候就需要将这个音的特性描述出来，让别人听到这个描述也能知道这个音应该是什么样的。描述所有的声音首先肯定需要对所有的音进行分类，才能根据分类来描述一个音。
 
@@ -81,7 +81,7 @@ This article contains phonetic symbols. Without proper rendering support, you ma
 ![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/2023-12-11/5.png "img")
 
 
-## 0x03 Categories Based on Places of Articuation
+## 0x03 Categories Based on Places of Articuation 依发音位置分类
 
 那么、剩下我们只需要给较为复杂的肺气流辅音分类了。
 
@@ -106,7 +106,7 @@ This article contains phonetic symbols. Without proper rendering support, you ma
 9. pharyngeal 喉音 [ʕ]
 10. glottal 声门 [ʔ]
 
-## 0x04 Categories Based on Matters of Articuation 
+## 0x04 Categories Based on Matters of Articuation 依发音方式分类
 
 第二种给肺气流辅音分类的方式就是通过发音的方式，体现在IPA Chart的纵轴上。[^fn-4]
 
@@ -175,7 +175,7 @@ Voicing sounds are those produced with the vocal cords are together and vibrates
 
 就是这么简单！
 
-## 0x07 Further to Vowels 元音
+## 0x07 Further to Vowels 描述元音
 ![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/2023-12-11/8.png "img")
 
 By the way, 在上一篇对元音就一笔带过了,这次把容易混淆的点介绍一下。
