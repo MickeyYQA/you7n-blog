@@ -11,6 +11,7 @@ author: you7n
 早期语音学笔记、不是很完善。主要在介绍IPA。
 
 This article contains phonetic symbols. Without proper rendering support, you may see [question marks, boxes, or other symbols](https://en.wikipedia.org/wiki/Specials_(Unicode_block)#Replacement_character) instead of phonetic symbols.
+本页面有语音学符号，操作系统及浏览器须支持特殊字母与符号才能正确显示为语音学符号，否则可能变成[乱码、问号、空格](https://en.wikipedia.org/wiki/Specials_(Unicode_block)#Replacement_character)等其它符号。
 {: .message}
 
 ## Section I
@@ -228,10 +229,12 @@ Tense and lax vowels元音松紧指的是the degree of tension in the tongue mus
 *Note:* ç sounds like ch in church, c like j in job, ş like sh in shoe. e, i, o, and u are pronounced approximately like in red, reed, rod, and rude, respectively. ö and ü are respectively e and i, pronounced with the lips rounded. ı (written like an “i” but without a dot on top) is like u, pronounced with the lips spread (unrounded).
 Turkish is a language from the Turkic group of the Altaic language family. It is spoken by 60 million people in Turkey and roughly 10 million other people around the world.
 
+## Answer Key 答案
+- **F1** BH
+- **F2** sütçü gözsüz 
+- **F3** dilçi dilsiz kalıpçı kalıpsız
 
 ## Reference 参考
-
-
 [^fn-1]: Ladefoged, Peter N. “Phonetics - Definition, Types, Examples, and Facts.” Encyclopedia Britannica, 5 Dec. 2023, www.britannica.com/science/phonetics.
 
 [^fn-2]: Finch, Geoffrey, et al. How to Study Linguistics: A Guide to Understanding Language. Bloomsbury Publishing, 2017.
@@ -246,7 +249,3 @@ Turkish is a language from the Turkic group of the Altaic language family. It is
 
 [^fn-7]: Stewart, Thomas W., and Nathan Vaillette. Language Files : Materials for an Introduction to Language and Linguistics. 2001, ci.nii.ac.jp/ncid/BA52967097.
 
-## Answer Key 答案
-- **F1** BH
-- **F2** sütçü gözsüz 
-- **F3** dilçi dilsiz kalıpçı kalıpsız
