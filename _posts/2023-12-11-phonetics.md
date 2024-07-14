@@ -12,14 +12,14 @@ author: you7n
 
 This article contains phonetic symbols. Without proper rendering support, you may see question marks, boxes, or other symbols instead of phonetic symbols.
 {: .message}
-
+ 
 ## 0x00 Study of Sounds
 
 图片
 
 语音学旨在描述世界上所有语言的所有语音。它包含acoustic phonetics声学语音学，auditory phonetics听觉语音学，articulatory phonetics发音语音学 和 linguistic phonetics 语言语音学。
 
-简单来说语音学就是study of speech sounds研究语音的学科[1](嗯中文这句好废话)。
+简单来说语音学就是study of speech sounds研究语音的学科[1] (嗯中文这句好废话)。
 
 先从语音学不研究什么讲起。语音学不研究speed of speech讲话速度，staccato断音(指说话断断续续)，pitch levels声调高低。这很好理解。因为这三个东西太不具有普遍性了，任意两个具有同一个语言水平的人的讲话速度声调高低都可能有很大的差别。
 
