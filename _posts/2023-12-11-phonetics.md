@@ -140,7 +140,7 @@ This article contains phonetic symbols. Without proper rendering support, you ma
 
 首先我们先来说说什么是「浊音」。
 Voicing refer to the vibration of vocal cords - 浊化等于声带的震动
-Voicing sounds are those produced with the vocal cords are together and vibrates as air passes through the glottis. - 浊音是指声带在一起时发出的声音，当空气通过声门时声带会振动。[1]
+Voicing sounds are those produced with the vocal cords are together and vibrates as air passes through the glottis. - 浊音是指声带在一起时发出的声音，当空气通过声门时声带会振动。[^fn-6]
 
 大家可以自己尝试一下。
 
@@ -148,15 +148,16 @@ Voicing sounds are those produced with the vocal cords are together and vibrates
 
 读zoo里面的[z] 然后发出[zzzz]的声音。这时候一边发声一边把手放在声带上，你大概率会感受到声带的振动。在说[ssss]的时候 你大概率不会感觉到任何振动。这种振动是由于空气流经glottal声门（就是刚说的glottal stop的glottal）的时候你的声带突然打开和关闭造成的。
 
-正如刚才所说，浊音指的是振动声带的声音 比如[z, m, b, g]。当声带张开的时候 空气就可以自由的通过声门。这些非振动音就是与浊音对立的清音，比如[s, f, p, t]。[1]
-图片
+正如刚才所说，浊音指的是振动声带的声音 比如[z, m, b, g]。当声带张开的时候 空气就可以自由的通过声门。这些非振动音就是与浊音对立的清音，比如[s, f, p, t]。[^fn-6]
+
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/2023-12-11/7.png "img")
 
 *cricoid cartilage = 环状软骨
 
 而送气不送气则是和清浊相对的两个完全不同的概念。常见的误区就是英语中的不送气音。例如，「spoon」中的「p」发不送气的清音[p]。但常常有人将这里的p认为是所谓的「浊音」。这是不正确的！
 感觉有一种在知乎下看「如何一句话激怒一名语音学爱好者」的感觉
 
-英语中的p有三种发音方式。送气清音[pʰ]，例如puff中的p；不送气清音[p], 例如spoon中的p；No audible release无闻除阻[p̚]，例如lip中的p。所以spoon中的p实际上是不送气的清音，并不是浊音。[2]
+英语中的p有三种发音方式。送气清音[pʰ]，例如puff中的p；不送气清音[p], 例如spoon中的p；No audible release无闻除阻[p̚]，例如lip中的p。所以spoon中的p实际上是不送气的清音，并不是浊音。[^fn-7]
 
 而真正的浊音则是像rod中的[d]（和rot[tʰ]相对），gate中的[g]（今儿kate[kʰ]相对）等等。
 
@@ -175,22 +176,23 @@ Voicing sounds are those produced with the vocal cords are together and vibrates
 就是这么简单！
 
 ## 0x07 Further to Vowels 元音
-图片
+![placeholder](https://raw.githubusercontent.com/MickeyYQA/you7n-blog/master/img/2023-12-11/8.png "img")
 
 By the way, 在上一篇对元音就一笔带过了,这次把容易混淆的点介绍一下。
 
 这里元音的前中后指的是「舌头最高点所处的位置」。例如hid中的i，发音是舌头最高位置位于口腔的前侧，嘴巴相较于同样是前侧音的head,had口型较小。那么这个音就是在左上角这个位置。
 
-Tense and lax vowels元音松紧指的是the degree of tension in the tongue muscles, particularly those muscles responsible for the bunching up of the tongue lengthway 舌部肌肉紧张程度(?或者是拉力)的大小,尤其是负责舌头宽度的肌肉。[1]
+Tense and lax vowels元音松紧指的是the degree of tension in the tongue muscles, particularly those muscles responsible for the bunching up of the tongue lengthway 舌部肌肉紧张程度(?或者是拉力)的大小,尤其是负责舌头宽度的肌肉。[^fn-6]
 
 关于松元音和紧元音有几个特点：紧元音比对应的松元音长；紧元音通常出现在单词的末尾；松元音几乎不出现在单词末尾。
 
 举几个例子方便理解（紧-松）：Heed-hid, who'd-hood, Hide-head
 
 ## 0x08 Exercises! 练习题
+
 当然IOL不会直接考语音学知识(肯定不会问你什么如何描述音标之类的)，但是会把这些语音学知识融合在各种题里面。下面这道题就是主要考察语素和语音的。语音方面考察对元音的理解。
 
-Turkish Delight - 我自己翻译的版本！
+### Turkish Delight - 我自己翻译的版本！
 下面是一些土耳其语和对应的中文翻译:
 A güreşçi 摔跤运动员
 B ikbalsiz 不成功的
@@ -206,31 +208,25 @@ K balıkçı 渔夫
 L parasız 不用现金的
 M mumcu 制蜡烛的人
 
-F1. 上面的单词中其中两个和其他在形式上略有不同，因为它们的词干是借自其他语言的。找出这两个词。
+**F1.** 上面的单词中其中两个和其他在形式上略有不同，因为它们的词干是借自其他语言的。找出这两个词。
 
-F2. 翻译成土耳其语。注意 i 和 ı 是两个不同的字母。
-送奶工:
-盲的:
+**F2.** 翻译成土耳其语。注意 i 和 ı 是两个不同的字母。
+**送奶工:
+盲的:**
 
-F3. 下面给出一些土耳其语单词（不是借自其他语言的）。
+**F3.** 下面给出一些土耳其语单词（不是借自其他语言的）。
 dil 语言
 kalıp 形式
 翻译成土耳其语。
-语言学家:
+**语言学家:
 哑的:
 制模具的人:
-无形的:
+无形的:**
 
 *Note:* ç sounds like ch in church, c like j in job, ş like sh in shoe. e, i, o, and u are pronounced approximately like in red, reed, rod, and rude, respectively. ö and ü are respectively e and i, pronounced with the lips rounded. ı (written like an “i” but without a dot on top) is like u, pronounced with the lips spread (unrounded).
 Turkish is a language from the Turkic group of the Altaic language family. It is spoken by 60 million people in Turkey and roughly 10 million other people around the world.
 
-答案可以去评论区找。下一篇可能会讲这道题（也可能不会）。
-
-----------Reference----------
-[1] Burton, Strang, et al. Linguistics for Dummies. 2012, ci.nii.ac.jp/ncid/BB09446677.
-[2] Stewart, Thomas W., and Nathan Vaillette. Language Files : Materials for an Introduction to Language and Linguistics. 2001, ci.nii.ac.jp/ncid/BA52967097.
-[3]“汉语拼音字母与国际音标对照表.” 百度百科, baike.baidu.com/item/%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E5%AD%97%E6%AF%8D%E4%B8%8E%E5%9B%BD%E9%99%85%E9%9F%B3%E6%A0%87%E5%AF%B9%E7%85%A7%E8%A1%A8/8794240.
-
+答案翻到最下面就有了。
 
 ## Reference
 
@@ -243,6 +239,10 @@ Turkish is a language from the Turkic group of the Altaic language family. It is
 [^fn-4]: IPA Chart With Sounds – International Phonetic Alphabet Sounds. www.internationalphoneticalphabet.org/ipa-sounds/ipa-chart-with-sounds.
 
 [^fn-5]: Encyclopædia Britannica. “Human Vocal Organs and Points of Articulation.” Encyclopædia Britannica, www.britannica.com/science/phonetics/Stops#/media/1/457255/3597. Accessed , 11 Dec. 2023.
+
+[^fn-6]: Burton, Strang, et al. Linguistics for Dummies. 2012, ci.nii.ac.jp/ncid/BB09446677.
+
+[^fn-7]: Stewart, Thomas W., and Nathan Vaillette. Language Files : Materials for an Introduction to Language and Linguistics. 2001, ci.nii.ac.jp/ncid/BA52967097.
 
 **F1** BH; **F2** sütçü gözsüz; **F3** dilçi dilsiz kalıpçı kalıpsız
 {: .message}
