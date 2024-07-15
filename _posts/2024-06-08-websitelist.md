@@ -30,13 +30,13 @@ Here is a list of real useful websites ^ ^
 - A repository of cross-linguistic phonological inventory data
 
 [Xenzuche Uyghurche Lughet](http://www.uyghurche.com/chinese-uyghur/)
-- Chinese - Uyghur Dictionary | خەنزۇچە ئۇيغۇرچە لۇغەت
+- Chinese - Uyghur Dictionary / خەنزۇچە ئۇيغۇرچە لۇغەت
 
 [English words by Latin antecedents](https://en.wiktionary.org/wiki/Appendix:English_words_by_Latin_antecedents)
 - A list of English words derived from Latin words
 
 [Dictionary Latin - English](https://en.glosbe.com/la/en)
-- Latin - English Dictionary | DICTIONARIUM LINGUAE LATINAE
+- Latin - English Dictionary / DICTIONARIUM LINGUAE LATINAE
 
 [猜语言](http://baltoslav.eu/adhadaj/index.php?)
 - 根据书写系统和示例单词来猜测语言。
