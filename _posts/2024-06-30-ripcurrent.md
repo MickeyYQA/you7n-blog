@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Binary Classification of Rip Current Images Using Artificial Intelligence
+title: Binary Classification of Rip Current Images Using Artificial Intelligence / 使用人工智能对离岸流图像进行二分类
 date: 2024-06-30
 tags: [PBL, Rip Currents, Visual Perception, Artificial Intelligence, dev]
 toc:  true
