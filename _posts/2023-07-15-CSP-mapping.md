@@ -5,6 +5,7 @@ date: 2023-07-15 22:11
 tags: [csp, dev]
 author: you7n
 ---
+2020年CSP普及组第一轮第16题。
 ```
 #include <cstdlib>
 #include <iostream>
