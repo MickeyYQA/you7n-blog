@@ -23,17 +23,19 @@ GitHub大神们开发出了能在macOS上运行32位游戏的方法。由于本�
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-### 2a. 如果你在用的是Intel芯片的mac，用这条。注意一定要把「yourusername」替换成你自己的用户名！
+### 2a. 如果你在用的是Intel芯片的mac:
+
+如果你在用的是Intel芯片的mac，用这条。注意一定要把「yourusername」替换成你自己的用户名！
 
 `(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/yourusername/.zprofile`
 
-`    eval "$(/usr/local/bin/brew shellenv)"`
+`eval "$(/usr/local/bin/brew shellenv)"`
     
 ### 2b. 如果是A系列芯片的mac：
 
 `(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/yourusername/.zprofile`
 
-`    eval "$(/opt/homebrew/bin/brew shellenv)"`
+`eval "$(/opt/homebrew/bin/brew shellenv)"`
     
 ### 3. 安装Xcode Command Line Tools。
 
@@ -75,7 +77,9 @@ GitHub大神们开发出了能在macOS上运行32位游戏的方法。由于本�
 
 可能需要五分钟左右 耐心等待。
 
-### 8. 安装软件到随便一个文件夹。把「/Path/to/your/folder」替换成你要安装游戏的位置。比如/Users/username/Documents/gaming
+### 8. 安装软件到随便一个文件夹。
+
+把「/Path/to/your/folder」替换成你要安装游戏的位置。比如/Users/username/Documents/gaming
 
 `python3 waf install --destdir='/Path/to/your/folder'`
 
