@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MathJAX数学格式测试
-tags: mathjax
+tags: dev
 math: true
 date: 2020-10-02 15:32 +0800
 ---
