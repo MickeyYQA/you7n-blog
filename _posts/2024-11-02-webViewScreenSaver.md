@@ -11,7 +11,7 @@ author: you7n
 
 因为一直以来都是下载别人做好的Screensaver。比如之前下了一个叫WhatColourIsIt的，会调用时间（比如10:09:00），转化为hex值对应的颜色（#100900），并显示为背景。但是这个Screensaver的效果不好，因为它的背景颜色不会每秒更新，显示的一直是进入屏保的首个颜色。于是就想到，这玩意也不是很难不如自己做一个。然后今天上午发现了[>>这个<<](https://github.com/liquidx/webviewscreensaver?tab=readme-ov-file)神奇的小工具，对我来说超有用。
 
-# 安装 WebViewScreenSaver
+## 安装 WebViewScreenSaver
 
 使用brew：
 ```bash
@@ -21,7 +21,7 @@ brew install --cask webviewscreensaver --no-quarantine
 
 非常简单。
 
-# 配置 WebViewScreenSaver
+## 配置 WebViewScreenSaver
 
 进入刚刚下载文件的地方，通常是Download文件夹，双击打开.saver文件。
 
@@ -33,7 +33,7 @@ brew install --cask webviewscreensaver --no-quarantine
 
 这里可以输入URL，也可以设置本地html文件。但是需要注意要形如`file:///Users/admin/index.html`这样。
 
-# 使用例-HEX Clock
+## 使用例-HEX Clock
 
 这就是上面提到的自己做的屏保哈哈哈哈 很简单的html但是效果还不错。还可以配合hot corner一起使用，把鼠标拨拉到角上直接进screensaver这样。
 
