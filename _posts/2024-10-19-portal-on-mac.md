@@ -21,37 +21,48 @@ GitHub大神们开发出了能在macOS上运行32位游戏的方法。由于本�
 
 ### 1. 安装Homebrew
 
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 ### 2a. 如果你在用的是Intel芯片的mac:
 
 如果你在用的是Intel芯片的mac，用这条。注意一定要把「yourusername」替换成你自己的用户名！
 
-`(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/yourusername/.zprofile`
+```bash
+(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/yourusername/.zprofile
 
-`eval "$(/usr/local/bin/brew shellenv)"`
+eval "$(/usr/local/bin/brew shellenv)"
+```
+
     
 ### 2b. 如果是A系列芯片的mac：
 
-`(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/yourusername/.zprofile`
+```bash
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/yourusername/.zprofile
 
-`eval "$(/opt/homebrew/bin/brew shellenv)"`
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
     
 ### 3. 安装Xcode Command Line Tools。
 
 时间可能会比较长
    
-`xcode-select --install`
+```bash
+xcode-select --install
+```
 
 ### 4. 使用homebrew安装必要的库。
 
-`brew help`
+```bash
+brew help
 
-`brew doctor`
+brew doctor
 
-`brew cleanup`
+brew cleanup
 
-`brew install sdl2 freetype2 fontconfig pkg-config opus jpeg jpeg-turbo libpng libedit python3`
+brew install sdl2 freetype2 fontconfig pkg-config opus jpeg jpeg-turbo libpng libedit python3
+```
 
 ## 下载、编译代码
 
@@ -59,21 +70,29 @@ GitHub大神们开发出了能在macOS上运行32位游戏的方法。由于本�
 
 注意「--recursive」是不能删掉的。
 
-`git clone --recursive https://github.com/nillerusr/source-engine`
+```bash
+git clone --recursive https://github.com/nillerusr/source-engine
+```
 
 随后cd进clone的文件夹。
 
-`cd source-engine`
+```bash
+cd source-engine
+```
 
 ### 6. Configure portal build
 
-`python3 waf configure -T release --prefix='' --build-games=portal`
+```bash
+python3 waf configure -T release --prefix='' --build-games=portal
+```
 
 如果这一步build失败了，检查一下第五步git clone下来的对不对，有没有加「--recursive」。
 
 ### 7. Build
 
-`python3 waf build`
+```bash
+python3 waf build
+```
 
 可能需要五分钟左右 耐心等待。
 
@@ -81,7 +100,9 @@ GitHub大神们开发出了能在macOS上运行32位游戏的方法。由于本�
 
 把「/Path/to/your/folder」替换成你要安装游戏的位置。比如/Users/username/Documents/gaming
 
-`python3 waf install --destdir='/Path/to/your/folder'`
+```bash
+python3 waf install --destdir='/Path/to/your/folder'
+```
 
 ## 下载-转移游戏文件
 
@@ -112,9 +133,11 @@ GitHub大神们开发出了能在macOS上运行32位游戏的方法。由于本�
 
 把运行Shell脚本模块中的代码改为
 
-`cd /Path/to/your/folder`
+```shell
+cd /Path/to/your/folder
 
-`./hl2_launcher -game portal`
+./hl2_launcher -game portal
+```
 
 <img width="1000" alt="image" src="https://github.com/user-attachments/assets/255e1d25-7c6d-4f4c-a244-d39a0995e020">
 
