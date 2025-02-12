@@ -6,7 +6,7 @@ tags: [csp, dev]
 author: you7n
 ---
 2020年CSP普及组第一轮第16题。
-```
+```cpp
 #include <cstdlib>
 #include <iostream>
 using namespace std;
