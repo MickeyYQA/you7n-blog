@@ -19,6 +19,14 @@ KenLM 是一个高效的 n-gram 语言模型库，但在 Mac 上安装时遇到�
 
 <img width="815" alt="image" src="https://github.com/user-attachments/assets/90356ac3-40bc-49e8-af17-b25eeac559d5" />
 
+主要表现为
+
+```shell
+Failed to build kenlm
+ERROR: Failed to build installable wheels for some pyproject.toml based projects (kenlm)
+```
+
+
 所以尝试使用GitHub版手动编译。
 
 ```shell
