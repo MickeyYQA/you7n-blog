@@ -1,6 +1,6 @@
----
+<img width="939" alt="image" src="https://github.com/user-attachments/assets/fa1dff20-d047-4ac7-84b0-137b42814bc7" />---
 layout: post
-title: 模版格式测试
+title: Template Format Testing / 模版格式测试
 date: 2020-09-29 23:18 +0800
 last_modified_at: 2020-10-01 01:08:25 +0800
 tags: [dev]
@@ -20,6 +20,10 @@ Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur puru
 ## Inline HTML elements
 
 HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+
+If you want to quickly learn to use HTML tags, you can find an HTML guide for beginners on [Website Planet](https://www.websiteplanet.com/blog/html-guide-beginners/). (Thanks to *Jane* who wrote an e-mail to remind me of this!)
+
+In the **Not Pure Poole** post layout, these tags are available.
 
 - **To bold text**, use `<strong>`.
 - *To italicize text*, use `<em>`.
