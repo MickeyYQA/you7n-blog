@@ -1,4 +1,4 @@
-<img width="939" alt="image" src="https://github.com/user-attachments/assets/fa1dff20-d047-4ac7-84b0-137b42814bc7" />---
+---
 layout: post
 title: Template Format Testing / 模版格式测试
 date: 2020-09-29 23:18 +0800
